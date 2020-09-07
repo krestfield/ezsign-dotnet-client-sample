@@ -4,9 +4,9 @@ This sample demonstrates how the EzSign or PKCloud services can be called from a
 
 A demonstration server is available at this location:
 
-Server: demo.krestfield.com
+* Server: demo.krestfield.com
 
-Port: 80
+* Port: 80
 
 And this sample targets that instance. The demo server is up between the hours of 06:00 - 19:00 UTC
 
