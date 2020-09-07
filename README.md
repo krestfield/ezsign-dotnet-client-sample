@@ -1,11 +1,17 @@
 # ezsign-dotnet-client-sample
 
-This sample demonstrates how to interface to a PKCloud instance in order to generate and verify digital signatures
+This sample demonstrates how the EzSign or PKCloud services can be called from a .NET client
 
-This example makes use of the online test instance although PKCloud can be hosted in the cloud or on your own premises
+A demonstration server is available at this location:
 
-PKCloud will manage all the interfacing with HSMs, formatting of signatures and what algorithms will be used, meaning clients can maintain a crypto-agile approach - a change to the server configuration will be reflected for all clients
+Server: demo.krestfield.com
 
-More information can be obtained here: https://krestfield.com/index.php/pkcloud
+Port: 80
 
-Questions can be directed to: support@krestfield.com
+And this sample targets that instance. The demo server is up between the hours of 06:00 - 19:00 UTC
+
+WARNING: This is for test purposes only, the certificates configured on the test server are for test only and any data sent to this server is not protected
+
+More details about EzSign and PKCloud are available here: https://www.krestfield.com
+
+If the server is not available, or for any other questions please contact support: support@krestfield.com
