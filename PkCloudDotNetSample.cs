@@ -25,7 +25,7 @@ namespace EzSignDotNetClientSample
         {
             // Connection and authentication details
             // If the credentials do not work, contact support@krestfield.com to request updated versions
-            String server = "demo.krestfield.com";
+            String server = "demoapi.krestfield.com";
             int port = 80;
             String authCode = "password";
 
@@ -63,7 +63,7 @@ namespace EzSignDotNetClientSample
                 Console.WriteLine();
 
                 // Now we create a failure by altering the original data
-                Console.WriteLine("We expect a failure next as we have altered the signed data...");
+                Console.WriteLine("We expect a failure next as we have altered the original data...");
                 dataToSign = Encoding.ASCII.GetBytes("Sign Me 2");
                 client.verifySignature(channel, signature, dataToSign, dataIsDigest);
 
