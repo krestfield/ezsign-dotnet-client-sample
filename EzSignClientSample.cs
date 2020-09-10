@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Text;
+
 using com.krestfield.ezsign.client;
 
 namespace EzSignDotNetClientSample
 {
-    class PkCloudDotNetSample
+    class EzSignClientSample
     {
         /// <summary>
         /// This example demonstrates how simply signing and verification services can be built
@@ -73,6 +74,8 @@ namespace EzSignDotNetClientSample
             {
                 Console.WriteLine("Signature verification error. " + verifyEx.Message);
             }
+
+            Console.ReadKey();
         }
     }
 }
