@@ -75,6 +75,8 @@ namespace EzSignDotNetClientSample
                 Console.WriteLine("Signature verification error. " + verifyEx.Message);
             }
 
+            Console.WriteLine();
+            Console.WriteLine("Press a key to close");
             Console.ReadKey();
         }
     }
